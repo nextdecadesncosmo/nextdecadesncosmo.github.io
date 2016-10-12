@@ -11,22 +11,16 @@ sc<!DOCTYPE html>
 
     <! ------------ Google Maps --------------- >
     <script src="http://Maps.googleapis.com/maps/api/js"></script>
-    
-      
     <script>
-      function initMap() {
-        var uluru = {lat: 52.517407, lng: 13.393528};
-        var map = new google.maps.Map(document.getElementById('googleMap'), {
-          zoom: 15,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
+    function initialize() {
+    var mapProp = {
+      center:new google.maps.LatLng(52.517407, 13.393528),
+      zoom:15,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);}
+    google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-      
     
   </head>
 
