@@ -1,0 +1,93 @@
+body {
+   padding-top: 50px;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.starter-template .description{
+    color: dark-grey;
+    font-size: large;
+    font-weight: 300; 
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+.Contact {
+  margin: 0px;
+  padding-top: 20px;
+  background-color: #f7f7f7;
+ 
+}
+.Contact .thumbnail{
+  margin-right: 10px;  
+  margin-left: 10px;  
+  padding: 10px;  
+}
+.Contact .info-perso{
+   padding-left: 20px;
+  
+}
+
+.DataList {
+   
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255,255,255,0.95);
+}
+
+.DataList .thumbnail{
+  margin-right: 10px;  
+  padding: 10px;  
+}
+
+
+.fixed {
+        position: fixed;
+	z-index: 999;
+}
+.scrollit {
+        position: float;
+}
+
+
+
+/* CUSTOMIZE LINKS 
+-------------------------------------------------- */
+.OnTop {
+    z-index: 9;
+}
+.DataLink {
+ padding-left: 30px;  
+}
+.linkInfo {
+  padding-left: 30px;  
+}
+.linkInfo h4{
+  color: grey;
+  
+}
+.DataArchive {
+  margin-bottom: 10px;  
+  /*border-bottom: solid 1px #293A79;*/
+}
+
+.link .container .row{
+    padding-top: 10px;
+}
+
+.Private-link  {
+    background-color:  	#E8E8E8;
+    border: solid 1px black;
+}
+
+
+.myContainer {
+}
+
+
+.figure{
+}
